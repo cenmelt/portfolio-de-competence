@@ -116,12 +116,12 @@
         "action": "En tant que chef de projet, j'ai réparti les rôles de chaque membre de l'équipe. Deux personnes se sont occupées de la maquette en raison de leur plus grande expérience. Avec un autre collègue, nous nous sommes chargés de la communication autour de l'événement et du scénario du clip. J'ai également décidé de sous-traiter le clip, car aucun membre de l'équipe n'avait de compétences en audiovisuel. De plus, pour l'ouverture, nous avons mis en place un système de points de fidélité permettant de gagner une réduction sur la note finale.",
         "auto-eval": "Dans le cadre de ce projet, j'ai démontré ma capacité à gérer efficacement une équipe et à répartir les tâches en fonction des compétences de chacun. La décision de sous-traiter le clip vidéo a montré mon habileté à identifier les lacunes dans notre expertise et à prendre des mesures pour y remédier. De plus, la mise en place d'un système de points de fidélité a non seulement ajouté de la valeur au projet, mais a également montré notre compréhension des stratégies de marketing efficaces. Malgré la pression et les délais serrés, nous avons réussi à présenter un projet complet et cohérent, ce qui témoigne de notre capacité à travailler efficacement sous contrainte.",
         "images": [
-            "./img/accueil.png",
-            "./img/maquette.png",
-            "./img/clip.png",
-            "./img/flyers-recto.png",
-            "./img/flyers.png",
-            "./img/affiche.png"
+            "./img/accueil.PNG",
+            "./img/maquette.PNG",
+            "./img/clip.PNG",
+            "./img/flyers-recto.PNG",
+            "./img/flyers.PNG",
+            "./img/affiche.PNG"
         ]
     }
 ]

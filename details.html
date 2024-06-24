@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails de la Série</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a style="text-decoration: none; color: #1ed760;" href="index.html">Clément</a></div>
+        <nav class="menu">
+            <ul style="list-style-type: none; padding-inline-start: 0;">
+                <li><a class="no-style" href="#accueil"><img class="icone-left-menu" src="./img/house-4471626_1280.webp" alt="">  Accueil</a></li>
+                <li><a class="no-style" href="#rechercher"><img class="icone-left-menu" src="./img/2070.png"> Rechercher</a></li>
+                <li><a class="no-style" href="#bibliotheque"><img class="icone-left-menu" src="./img/book-160871_960_720.webp"> Bibliothèque</a></li>
+                <li><a class="no-style" href="#creer"><img class="icone-left-menu" src="./img/plus_square_filled_icon_178930.webp"> Créer une playlist</a></li>
+                <li><a class="no-style" href="#likes"><img class="icone-left-menu" src="./img/1145.png"> Titres likés</a></li>
+            </ul>
+        </nav>
+    </header>
+<div id="section-container">
+    <section class="details-hero" id="detailsHero">
+        <div class="details-content">
+            <p>Projet vérifié</p>
+            <h1 id="detailsTitle"></h1>
+            <p>6 220 969 auditeurs mensuels</p>
+        </div>
+    </section>
+
+    <section class="ac-section">
+        <div style="display: flex; flex-direction: row;">
+            <button class="btn" > Play </button>
+            <button style="margin-left: 1rem; display: flex; background-color: unset; border: solid 1px white;" class="btn">S'abonner</button>
+        </div>
+        <h2>Description</h2>
+        <p id="detailsDescription"></p>
+    </section>
+
+    <section class="ac-section">
+        <h2>Apprentissages critiques</h2>
+        <ul class="ac-list" id="acList"></ul>
+    </section>
+
+    <section class="tasks-section">
+        <h2>Tâches</h2>
+        <ul class="tasks-list" id="tasksList"></ul>
+    </section>
+
+    <section class="auto-eval-section">
+        <h2>Auto-évaluation</h2>
+        <p id="autoEvalText"></p>
+    </section>
+
+    <section class="images-section">
+        <h2>Images</h2>
+        <div class="images-row" id="imagesRow"></div>
+    </section>
+
+    <div id="justificationModal" class="modalAC">
+        <div class="modalAC-content">
+            <span class="close">&times;</span>
+            <div id="divNumAc">
+            </div>
+            <h2>Justification</h2>
+            <p id="justificationText"></p>
+        </div>
+    </div>
+</div>
+    <script src="details.js"></script>
+</body>
+</html>

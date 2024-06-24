@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Stage",
+        "description": "J'ai débuté mon parcours avec la refonte du menu et du carrousel du site Logomotion, orientée vers l'éco-optimisation plutôt que des changements graphiques traditionnels. Le site, basé sur WordPress avec un thème enfant, nécessitait une amélioration significative de sa performance écologique, particulièrement pour la page d'accueil intégrant le carrousel et le menu. Ensuite, j'ai créé un manuel d'utilisation pour une nouvelle plateforme développée par mon tuteur au sein d'une entreprise. Ce travail m'a permis de me familiariser avec l'interface et les fonctionnalités de la plateforme en vue de l'utiliser comme base pour des projets futurs. En parallèle, j'ai participé aux tests de cette plateforme.Une mission importante suivante a été la conception d'une maquette graphique pour améliorer l'interface des tests administrés aux candidats de l'entreprise. Sous la direction de mon patron, j'ai dirigé la refonte graphique complète, ensuite finalisée par un graphiste pour présentation aux associés de l'entreprise. Une fois cette étape achevée, j'ai entamé le développement de la plateforme utilisant le framework Symfony, une technologie nouvelle pour moi, mais essentielle pour répondre aux exigences du projet.",
+        "AC": [
+            {
+                "code": "AC34.04",
+                "description": "Concevoir et développer des composants logiciels, plugins ou extensions",
+                "justification": "Pour le développement de la nouvelle application, j'ai créé tous les composants liés aux abonnements et aux crédits qui sont la monnaie de la plateforme."
+            },
+            {
+                "code": "AC34.01",
+                "description": "Développer à l’aide d’un framework de développement côté serveur",
+                "justification": "Lors de mon stage, j'ai eu l'occasion d'utiliser Symfony, un framework côté serveur largement utilisé dans le développement web. Symfony facilite la gestion des requêtes HTTP, la gestion de la base de données et la mise en œuvre de la logique métier côté serveur."
+            },
+            {
+                "code": "AC34.O5",
+                "description": "Maitriser l'hébergement et le déploiement d'applications",
+                "justification": "Lors de mon stage, j'ai eu l'occasion d'utiliser CyberDuck qui ets le Filezilla de mac et également CPanel qui m'as permis de gérer l'environnement de staging et de production. Et Cyber duck ma servie de passerelle entre la version de l'appli local qui est sur mon pc et le serveur."
+            }
+        ],
+        "Situation": "",
+        "tache": " 1.Refonte de l’éco-conception du site Logomotion, 1.1.Allégement du DOM, 1.2.Réduction de la taille de stockage des images, 1.3.Minification du JS et du CSS, ",
+        "action": "",
+        "auto-eval": "",
+        "images": [
+            "./img/Animation - Copie (2).gif"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Giv'Up !",
+        "description": "Pour ce projet, nous avons dû réfléchir à tout. Définir le thème, puis trouver une idée intéressante d'application à créer pour une borne interactive. Nous avons donc décidé de faire un quiz pouvant être joué par 2 à 4 joueurs. Le jeu se déroule en tour par tour. Le premier joueur commence avec un mini-jeu aléatoire. Il y a 4 mini-jeux différents : un puzzle, une frise chronologique, un jeu où il faut associer la pochette à l'artiste correspondant. Ces trois premiers mini-jeux se jouent en solo. Le quatrième mini-jeu se joue avec tous les participants. À la fin, la personne qui a marqué le plus de points gagne.",
+        "AC": [
+            {
+                "code": "AC34.02",
+                "description": "Développer des dispositifs interactifs sophistiqués",
+                "justification": "Afin de rendre nos jeux interactif. Nous avons créé pour cela des éléments telle que des buzzers ou même des éléments qui peuvent ce déplacer sur l'écran. Par exemple, le mini-jeu 'Puzzle' permet aux utilisateurs de faire glisser les pièces du puzzle sur l'écran pour les placer correctement, ce qui crée une expérience plus immersive et engageante."
+            },
+            {
+                "code": "AC34.01",
+                "description": "Développer à l’aide d’un framework de développement côté client",
+                "justification": "Pour ce projet, nous avons utilisé le framework 'React JS' qui a agi côté client. React JS a été choisi pour sa flexibilité et son efficacité grâce par exemples aux composants réutilisables qui ont simplifié le développement et la maintenance du code. Par exemple, les différents mini-jeux partagent certains composants de base, ce qui a permis de réduire le temps de développement et de maintenir une cohérence visuelle."
+            },
+            {
+                "code": "AC35.02",
+                "description": "Maîtriser la qualité en projet Web ou multimédia",
+                "justification": "Afin de réaliser la meilleur des applications nous avons procéder à des tests. Ces tests ont été réaliser par l'ensemble de la classe. Notre but était de trouver les bugs que pouvais avoir l'application ou des problèmes d'ergonomie. Par exemple avec le jeu 'puzzle' nous avons transformer sont fonctionnement passant d'un fonctionnement par clique a un drag and drop.L"
+            }
+        ],
+        "Situation": "Objectif : Faire un projet sur le thème de la musique. Idée : Quiz lié à la musique.",
+        "tache": [
+            "1. Créer le déroulement du quiz",
+            "2. Chercher de bonnes idées de mini-jeux",
+            "3. Faire le maquettage",
+            "4. Créer les différents mini-jeux"
+        ],
+        "action": "Je me suis donc occupé du bon déroulement du jeu et aussi du maquettage et de la conception de deux mini-jeux. Le premier était le mini-jeu 'Timeline'. Le but de celui-ci était de remettre dans le bon ordre sur une frise chronologique des couvertures d'album, de la plus ancienne à la plus récente, dans un temps imparti. Le mini-jeu final a été le deuxième mini-jeu que j'ai conçu et pensé de A à Z. Le but de ce dernier est de retrouver la musique après que les paroles ont été traduites en anglais (si elles sont en français) ou en français (si elles sont dans une autre langue). Pour répondre, il faut buzzer en utilisant les touches mises à disposition avec la borne. J'ai également aidé mes camarades sur les autres mini-jeux, par exemple la fonctionnalité de drag and drop pour le mini-jeu 'Puzzle'. Mais ce n'est pas moi qui ai imaginé le concept des autres mini-jeux.",
+        "auto-eval": "Le projet a été vraiment intéressant à développer, car nous avons tout pensé de A à Z. Nous avons pris en compte chaque aspect, du maquettage à la réalisation finale, ce qui nous a permis de comprendre et de contrôler chaque étape du processus de développement. De plus, je trouve que le quiz est de bonne qualité grâce à l'attention portée aux détails et à l'interactivité. Cependant, je pense qu'il aurait pu être encore meilleur si nous avions intégré un plus grand nombre de mini-jeux. Cela aurait aidé à éviter la répétition. Malgré cette limitation, je suis fier de ce que nous avons accompli et des compétences que nous avons développées tout au long de ce projet.",
+
+        "images": [
+            "./img/GivUp-accueil.png",
+            "./img/GivUp-settings.png",
+            "./img/GivUp-puzzle.png",
+            "./img/GivUp-Relier.png",
+            "./img/GivUp-Timeline.png",
+            "./img/GivUp-final.png"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Entrepreneuriat",
+        "description": "Le but de ce projet était de gérer en équipe différentes parties d'une entreprise. Nous avons tous pris le rôle de chef de projet, devant gérer des employés et définir les tâches prioritaires à développer en premier.",
+        "AC": [
+            {
+                "code": "AC35.01",
+                "description": "Piloter un produit, un service ou une équipe",
+                "justification": "Ce projet était axé sur la gestion de projet. Nous devions gérer nos équipes, attribuer des tâches et respecter des délais stricts. Cela nous a permis de développer nos compétences en communication et organisation."
+            }
+        ],
+        "Situation": "",
+        "tache": "Chaque membre de l'équipe devait terminer dans les temps toutes les tâches assignées pour compléter le produit final et le rendre dans les délais. Chaque jour de retard nous coûtait de l'argent. Il fallait également gérer les heures supplémentaires des employés ainsi que leurs éventuels retards ou absences.",
+        "action": "En tant que chef de projet, j'ai coordonné les efforts de l'équipe en attribuant les tâches en fonction du temp donné pour une tache selon l'employe car bien  évidemment chacun avais des compétences différentes. Pour gérer les ressources humaines, j'ai surveillé les heures supplémentaires et les absences des employés, ajustant les plannings en conséquence pour minimiser les impacts sur le projet.",
+        "auto-eval": "Ce projet m'a permis de développer des compétences cruciales en gestion de projet, notamment en planification et organisation. Nous n'avons pas pu rendre le projet dans les temp mais de mon côté j'ai pu finir en avnace tout mon arbre de tache",
+        "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "La brasserie",
+        "description": "Nous avons été mandatés par un client pour créer un site web, une application mobile, un clip vidéo, et organiser l'inauguration de l'ouverture de sa brasserie-restaurant. En concurrence avec d'autres équipes, notre objectif était de convaincre ce client potentiel de choisir notre entreprise.",
+        "AC": [
+            {
+                "code": "AC35.03",
+                "description": "Concevoir un projet d'entreprise innovante en définissant le nom",
+                "justification": "Nous avons créé une startup avec un modèle d'affaires unique répondant à un besoin spécifique du marché."
+            },
+            {
+                "code": "AC35.01",
+                "description": "Piloter un produit, un service ou une équipe",
+                "justification": "Ce projet s'est concentré sur la gestion de projet, nécessitant la gestion des équipes et le respect des délais."
+            }
+        ],
+        "Situation": "Nous faisions partie d'une équipe en concurrence avec d'autres, avec pour objectif de convaincre un client potentiel de choisir notre entreprise plutôt que nos concurrents. Nous avions une semaine pour préparer un projet convaincant à présenter au commanditaire.",
+        "tache": "Présenter une maquette de site web et d'application mobile, un scénario de clip, et les détails sur l'inauguration de la brasserie.",
+        "action": "En tant que chef de projet, j'ai réparti les rôles de chaque membre de l'équipe. Deux personnes se sont occupées de la maquette en raison de leur plus grande expérience. Avec un autre collègue, nous nous sommes chargés de la communication autour de l'événement et du scénario du clip. J'ai également décidé de sous-traiter le clip car aucun membre de l'équipe n'avait de compétences en audiovisuel. De plus, pour l'ouverture, nous avons mis en place un système de points de fidélité permettant de gagner une réduction sur la note finale.",
+        "auto-eval": "Dans le cadre de ce projet, j'ai démontré ma capacité à gérer efficacement une équipe et à répartir les tâches en fonction des compétences de chacun. La décision de sous-traiter le clip vidéo a montré ma capacité à identifier les lacunes dans notre expertise et à prendre des mesures pour y remédier. De plus, la mise en place d'un système de points de fidélité a non seulement ajouté de la valeur au projet, mais a également montré notre compréhension des stratégies de marketing efficaces. Malgré la pression et les délais serrés, nous avons réussi à présenter un projet complet et cohérent, ce qui témoigne de notre capacité à travailler efficacement sous contrainte.",
+        "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Gestionnaire de mot de passe Laravel",
+        "description": "Dans ce projet le but était simple faire un gestionnaire de mot de passe avec la possibilité de créer des équipes ayant les droits de voir certain mot de passe.",
+        "AC": [
+            {
+                "code": "AC35.03",
+                "description": "Concevoir un projet d'entreprise innovante en définissant le nom",
+                "justification": "Nous avons créé une startup avec un modèle d'affaires unique répondant à un besoin spécifique du marché."
+            },
+            {
+                "code": "AC35.01",
+                "description": "Piloter un produit, un service ou une équipe",
+                "justification": "Ce projet s'est concentré sur la gestion de projet, nécessitant la gestion des équipes et le respect des délais."
+            }
+        ],
+        "Situation": "Nous faisions partie d'une équipe en concurrence avec d'autres, avec pour objectif de convaincre un client potentiel de choisir notre entreprise plutôt que nos concurrents. Nous avions une semaine pour préparer un projet convaincant à présenter au commanditaire.",
+        "tache": [
+            "1. Création de compte",
+            "2.Création de formulaire pour insérer un mot de passe et en controlant les données envoyé",
+            "3.Création d'une équipe"
+        ],
+        "action": "En tant que chef de projet, j'ai réparti les rôles de chaque membre de l'équipe. Deux personnes se sont occupées de la maquette en raison de leur plus grande expérience. Avec un autre collègue, nous nous sommes chargés de la communication autour de l'événement et du scénario du clip. J'ai également décidé de sous-traiter le clip car aucun membre de l'équipe n'avait de compétences en audiovisuel. De plus, pour l'ouverture, nous avons mis en place un système de points de fidélité permettant de gagner une réduction sur la note finale.",
+        "auto-eval": "Dans le cadre de ce projet, j'ai démontré ma capacité à gérer efficacement une équipe et à répartir les tâches en fonction des compétences de chacun. La décision de sous-traiter le clip vidéo a montré ma capacité à identifier les lacunes dans notre expertise et à prendre des mesures pour y remédier. De plus, la mise en place d'un système de points de fidélité a non seulement ajouté de la valeur au projet, mais a également montré notre compréhension des stratégies de marketing efficaces. Malgré la pression et les délais serrés, nous avons réussi à présenter un projet complet et cohérent, ce qui témoigne de notre capacité à travailler efficacement sous contrainte.",
+        "images": [
+            "https://picsum.photos/200/300",
+            "https://picsum.photos/200/300"
+        ]
+    }
+]

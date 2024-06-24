@@ -1,0 +1,361 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #141414;
+    color: #fff;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+    top: 0;
+    z-index: 3;
+    grid-area: 1 / 1 / 2 / 2;
+}
+#section-container{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.menu>ul>li{
+    margin-top: 4rem !important;
+
+}
+.no-style{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1ed760;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+    margin-top: 2rem;
+
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    height: 50vh;
+    background-color: #333;
+    margin-top: 60px;
+    align-items: center;
+}
+.sous-container-hero{
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+.hero-content {
+    text-align: left;
+    border-radius: 96px;
+    padding: 31px;
+    backdrop-filter: blur(1px);
+}
+
+.hero-title {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 15%;
+    top: 13%;
+    width: 100%;
+    overflow: auto;
+    width: 70vw !important;
+    background-color: #222;
+    height: 80vh;
+    border-radius: 22px;
+    padding-bottom: 2rem;
+}
+
+.modal-content {
+    background-color: #222;
+    padding: 20px;
+    margin-left: 2rem;
+    border-radius: 22px;
+    height: 68vh;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    background-color: #333;
+    width: 20vw;
+    border-radius: 3px
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+Explication
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-title {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.ac-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ac-list li {
+    margin: 10px 0;
+}
+
+.validate-icon {
+    color: green;
+    margin-left: 10px;
+}
+
+.details-hero {
+    background-position: top !important;
+    display: flex;
+    align-items: flex-end;
+    height: 33vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}
+.tasks-section{
+    padding: 20px;
+}
+.auto-eval-section{
+    padding: 20px;
+}
+.details-content {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: left;
+    border-radius: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.details-content h1 {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.icone-left-menu{
+    width: 2vw;
+    height: 2vw;
+    filter: invert();
+    margin-right: 1rem;
+}
+.details-content p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+/* Images Section */
+.images-section {
+    padding: 20px;
+}
+
+.images-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.images-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.details-image {
+    width: 20vw;
+    border-radius: 5px;
+}
+
+/* AC Section */
+.ac-section {
+    padding: 20px;
+}
+
+.ac-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ac-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ac-list li {
+    margin: 10px 0;
+}
+
+.validate-icon {
+    color: green;
+    margin-left: 10px;
+}
+
+
+.ac-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.ac-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ac-number {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ed760;
+    color: white;
+    border-radius: 5px;
+    width: 10vw;
+    height: 5vw;
+    margin-left: 15px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ac-number h3 {
+    margin: 0;
+}
+
+.modalAC {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalAC-content {
+    background-color: #000;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#left-menu{
+    width: 240px;
+    height: 100%;
+    background-color: #000;
+}

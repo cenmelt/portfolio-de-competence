@@ -226,6 +226,7 @@ Explication
     font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0px;
+    text-shadow: 3px 0px 6px rgba(0, 0, 0, 1);
 }
 
 .icone-left-menu{
@@ -237,6 +238,7 @@ Explication
 .details-content p {
     font-size: 20px;
     margin-bottom: 0px;
+    text-shadow: 3px 0px 6px rgba(0, 0, 0, 1);
 }
 
 /* Images Section */
@@ -256,8 +258,19 @@ Explication
 }
 
 .details-image {
-    width: 20vw;
+    object-fit: contain;
+    max-width: 800px;
+    max-height: 700px;
     border-radius: 5px;
+}
+
+.action{
+    padding: 20px;
+}
+
+.ac-item:hover {
+    cursor: pointer;
+    transform: scale(1.01);
 }
 
 /* AC Section */
